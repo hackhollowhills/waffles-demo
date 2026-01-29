@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waffles demo</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>waffles are yummy!</h1>
+        <p>you'll get 2 waffles every second! for free!</p>
+        <div id="waffles-counter-container">
+            <img id="waffles-counter-image" src="https://static.vecteezy.com/system/resources/previews/010/179/007/non_2x/cartoon-waffle-dessert-file-free-png.png">
+            <p id="waffles-counter">0</p>
+        </div>
+        <div id="waffles-button-container">
+            <button onclick="giveWaffle()">i want a waffle</button>
+            <button onclick="donateWaffle()">donate waffle</button>
+        </div>
+        <div id="waffles-image-container">
+            <img id="waffles-image" width="100px" onclick="makeWafflesImageBigger()" src="https://www.kulicksfrenchtoastrecipes.com/wp-content/uploads/2022/11/Waffle-recipe.jpg" />
+            <p>(click that image!)</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
